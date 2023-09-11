@@ -1,4 +1,6 @@
 # alura-courses
 Repositório para colocar os códigos construídos a partir dos cursos da alura
 
-Atualmente, estou fazendo a formação "Apache Spark com Python", da trilha de Data Science.
+Formações em andamento (trilha [Data Science](https://www.alura.com.br/formacoes#data-science)):
+- Apache Spark com Python
+- Técnicas de processamento de linguagem natural
