@@ -1,0 +1,222 @@
+[
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "PlaybackWatcher >",
+    "initialize"
+  ],
+  [
+    "VIDEOJS:",
+    "WARN:",
+    "videojs.mergeOptions is deprecated and will be removed in 9.0; please use videojs.obj.merge instead."
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "PlaylistLoader >",
+    "m3u8-parser info for https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com: defaulting discontinuity sequence to zero"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "playlist update [null => 0-https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SyncController >",
+    "syncPoint for [segmentIndex: 0] chosen with strategy [VOD]: [time:0, segmentIndex:0]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "pc >",
+    "seekable updated [0 => 197.86400000000006]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Setting mediaSource duration to 197.86400000000006"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "playlist update [0-https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com => 0-https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SyncController >",
+    "syncPoint for [segmentIndex: 0] chosen with strategy [VOD]: [time:0, segmentIndex:0]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "live window shift [0]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "INIT -> READY"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "skipping remove because no source updater or starting media info"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SyncController >",
+    "syncPoint for [time: 0] chosen with strategy [VOD]: [time:0, segmentIndex:0]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "READY -> WAITING"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "Requesting segment [1/21] segment start/end [undefined => undefined] startOfSegment [0] duration [6.006] timeline [0] selected by [getMediaInfoForTime (currentTime 0)] playlist [0-https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "trackinfo update",
+    {
+      "hasAudio": true,
+      "hasVideo": true,
+      "isMuxed": false
+    }
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Adding videoBuffer with codec avc1.4d400d to mediaSource"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Adding audioBuffer with codec mp4a.40.2 to mediaSource"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "timinginfo: audio - start - 0.101"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "timinginfo: video - start - 0.2011"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "timinginfo: video - end - 6.2071"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Setting videotimestampOffset to -0.2011"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Setting audiotimestampOffset to -0.2011"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Appending segment 0's 1220527 bytes to videoBuffer"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "timinginfo: audio - end - 6.117"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SourceUpdater >",
+    "Appending segment 0's 145545 bytes to audioBuffer"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "WAITING -> APPENDING"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SyncController >",
+    "time mapping for timeline 0: [time: 0] [mapping: -0.2011]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "APPENDING -> READY"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SegmentLoader[main] >",
+    "Appended segment [1/21] segment start/end [0 => 6.005999999999999] startOfSegment [0] duration [6.006] timeline [0] selected by [getMediaInfoForTime (currentTime 0)] playlist [0-https://video.alura.com.br/hls/alura/738389610-hd.mp4/index.m3u8?cdn_hash=e44d3710c542f1769873cc5aa99dd992&cdn_creation_time=1717519340&cdn_ttl=3600&cdn_cv_user_email=leticiaemanuella96@gmail.com]"
+  ],
+  [
+    "VIDEOJS:",
+    "DEBUG:",
+    "VHS:",
+    "SyncController >",
+    "syncPoint for [segmentIndex: 0] chosen with strategy [VOD]: [time:0, segmentIndex:0]"
+  ]
+]
