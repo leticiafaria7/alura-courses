@@ -7,6 +7,22 @@
 
 <body>
   <main class="conteudo-principal">
+    <h1>Conversor de temperatura</h1>
+    <form action="">
+      <label class="input-group">Quero converter
+        <input type="number" id="temperatura" placeholder="00" min="1" max="10">
+        graus
+      </label>
+      <label class="input-group">
+          <select name="tipo-unidade" id="tipo-unidade">
+              <option value="celsius">celsius para fahrenheit</option>
+              <option value="fahrenheit">fahrenheit para celsius</option>
+          </select>
+      </label>
+      <button onclick="converter()" type="button">Converter</button>
+    </form>
+
+    <p id="output"></p>
 
     <!-- <form class="formulario">
         <label class="campo-grupo">
@@ -30,7 +46,7 @@
         Opção selecionada: <span id="opcao-selecionada"></span>
     </p> -->
 
-    
+
     
   </main>
 
