@@ -18,8 +18,8 @@ function adicionar() {
 }
 
 function sortear() {
-    if (listaAmigos.length < 2) {
-        alert('A lista de amigos deve ter pelo menos 2 amigos!');
+    if (listaAmigos.length < 3) {
+        alert('A lista de amigos deve ter pelo menos 3 amigos!');
     } else {
         listaAmigos.forEach((amigo, indexAmigo) => {
             let numeroSorteado;
