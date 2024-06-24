@@ -1,4 +1,5 @@
-
+from unidecode import unidecode
+import re
 
 # par ou ímpar ------------------------------------------------------------------------------------
 
@@ -55,17 +56,43 @@
 #     print(numero * (_ + 1))
 
 # média dos valores da lista ----------------------------------------------------------------------
-def criar_lista_numeros():
-    numeros = input('Digite uma lista de números separados por vírgula: ')
-    lista = numeros.replace(' ', '').split(',')
-    lista = [int(numero) for numero in lista]
-    return lista
+# def criar_lista_numeros():
+#     numeros = input('Digite uma lista de números separados por vírgula: ')
+#     lista = numeros.replace(' ', '').split(',')
+#     lista = [int(numero) for numero in lista]
+#     return lista
 
-while True:
-    try:
-        lista = criar_lista_numeros()
-        break
-    except:
-        print('Um dos números não é válido! Por favor, tente novamente.\n')
+# while True:
+#     try:
+#         lista = criar_lista_numeros()
+#         break
+#     except:
+#         print('Um dos números não é válido! Por favor, tente novamente.\n')
 
-print(f'A média dos números informados é {sum(lista) / len(lista)}')
+# print(f'A média dos números informados é {sum(lista) / len(lista)}')
+
+# contar a frequência de cada palavra em uma frase ------------------------------------------------
+def contar_freq_palavras(frase):
+    lista = frase.split(' ')
+
+    lista_palavras_tratadas = []
+    for palavra in lista:
+        palavra_tratada = re.sub('[^a-zA-Z0-9áéíóúÁÉÍÓÚâêîôÂÊÎÔãõÃÕçÇ: ]', '', palavra)
+        palavra_tratada = palavra_tratada.lower()
+        lista_palavras_tratadas.append(palavra_tratada)
+
+    lista_palavras_unicas = []
+    for palavra in lista_palavras_tratadas:
+        if palavra not in lista_palavras_unicas:
+            lista_palavras_unicas.append(palavra)
+
+    dict_palavras = {}
+    for palavra in lista_palavras_unicas:
+        n_ocorrencias = lista_palavras_tratadas.count(palavra)
+        dict_palavras[palavra] = n_ocorrencias
+
+    print(dict_palavras)
+
+frase = input('Escreva uma frase: ')
+
+contar_freq_palavras(frase)
