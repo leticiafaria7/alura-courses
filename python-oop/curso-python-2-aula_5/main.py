@@ -1,9 +1,9 @@
 from exercicios import *
 
 
-carro_1 = Carro('Renault', 'Captur', 5)
-carro_2 = Carro('Honda', 'HRV', 5)
-carro_3 = Carro('Fiat', 'Fastback', 5)
+carro_1 = Carro('Renault', 'Captur', 5, 'Branco')
+carro_2 = Carro('Honda', 'HRV', 5, 'Vinho')
+carro_3 = Carro('Fiat', 'Fastback', 5, 'Prata')
 
 moto_1 = Moto('Haojue', 'DR160', 'casual')
 moto_2 = Moto('Yamaha', 'R15', 'esportiva')
