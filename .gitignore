@@ -8,7 +8,11 @@ imdb-reviews-pt-br.csv
 imoveis.json
 gpt-python-1-dados/
 curso_1_openai/
+*.json
 
 # proteção da chave de acesso
 .env
 *.env
+
+# ambiente virtual
+venv/
