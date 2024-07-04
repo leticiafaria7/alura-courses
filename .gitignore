@@ -9,6 +9,7 @@ imoveis.json
 gpt-python-1-dados/
 curso_1_openai/
 *.json
+dados.csv
 
 # proteção da chave de acesso
 .env
