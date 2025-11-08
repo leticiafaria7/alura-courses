@@ -17,3 +17,6 @@ dados.csv
 
 # ambiente virtual
 venv/
+
+# arquivos .pyc
+*.pyc
