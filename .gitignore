@@ -18,5 +18,6 @@ dados.csv
 # ambiente virtual
 venv/
 
-# arquivos .pyc
+# extensões indesejadas
 *.pyc
+*.xml
